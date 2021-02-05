@@ -1,0 +1,148 @@
+* {
+  color: rgb(66,66,66);
+}
+
+html {
+  background-color: rgb(205,234,227);
+}
+
+#header001 {
+  font-style: Cyber;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#osnova {
+  margin-bottom: 40px;
+}
+
+p, ul, ol {
+   font-size: 18px;
+   font-weight: normal;
+   font-family: Comic Sans MS, sans-serif;
+}
+
+h3 {
+   font-style: Cyber;
+   font-size: 24px;
+}
+
+.links {
+  color: green;
+  text-decoration: none;
+}
+
+.links_1 {
+  color: green;
+  text-decoration: none;
+}
+
+.links:hover, .links_1:hover {
+  color: blue;
+}
+
+#button1:active {
+  background-color: black;
+  color: white;
+}
+
+.div2 {
+    background: rgb(219,248,255);
+    border: 2px dashed rgb(184,192,255);
+    padding: 10px;
+    padding-left: 40px;
+    float: left;
+    width: 23.5%;
+    margin-top: 40px;
+    margin-right: 2%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.div2:first-child {
+    margin-left: 20%;
+}
+
+.div2:last-child {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 45px;
+}
+
+.div3 {
+  margin-top: 470px;
+}
+
+#box1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#red {
+  width: 120px;
+  height: 120px;
+  background: red;
+  position: relative;
+  margin-left: 240px;
+
+}
+
+#blue {
+  width: 120px;
+  height: 120px;
+  background: blue;
+  position: relative;
+  margin-top: -120px;
+
+}
+
+#green {
+  width: 120px;
+  height: 120px;
+  background: green;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 130px;
+}
+
+#box2 {
+  padding-bottom: 440px;
+}
+
+#red1 {
+  width: 120px;
+  height: 120px;
+  background: red;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 280px;
+}
+
+#blue1 {
+  width: 120px;
+  height: 120px;
+  background: blue;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 160px;
+}
+
+#green1 {
+  width: 120px;
+  height: 120px;
+  background: green;
+  position: absolute;
+  margin-top: 40px;
+}
+
+span {
+  display: list-item;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+#pl3 {
+  width: 240px;
+  height: 90px;
+}
